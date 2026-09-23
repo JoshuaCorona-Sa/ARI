@@ -17015,6 +17015,7 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T21:38:43+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 83728000; confirmed OMOP 4308266; confirmed MONDO 0010012; confirmed ORPHANET 3143; flagged MONDO 0019012; flagged ORPHANET 65759; no term in MESH</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T21:38:43+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0010012; ORPHANET 3143</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-23T00:22:24+00:00 | KrishnaTO | Cross-reference review: flagged MESH D016884, C580192</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-23T00:26:03+00:00 | KrishnaTO | Cross-reference review: flagged MESH D016884, C580192</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83728000</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0050168</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0085860</ARI_UMLS>
@@ -22700,6 +22701,7 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <prevalencePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25284.0</prevalencePer100k>
   <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10-30 years</ageRange>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001204</ARI_ID>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secondary acute transverse myelitis | subtype | the acute form secondary to a defined cause (MS, NMO, infection, SLE, ...); narrower than transverse myelitis</ARI_SynonymWithdrawn>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Secondary acute transverse myelitis" - a subtype (acute, secondary to a defined cause), narrower than transverse myelitis. The entity is left with no synonyms.</ARI_ChangeLog>
@@ -22707,11 +22709,12 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 16631009; confirmed OMOP 443904; confirmed DOID 0080743; confirmed MONDO 0021553; confirmed MESH D009188; confirmed UMLS C0026976; no term in NCI; no term in ORPHANET</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0021553; MESH D009188; UMLS C0026976</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 16631009; confirmed OMOP 443904; confirmed DOID 0080743; confirmed MONDO 0021553; confirmed MESH D009188; confirmed UMLS C0026976; no term in NCI; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-23T00:26:03+00:00 | KrishnaTO | Cross-reference review: flagged ORPHANET 139417, 592873; flagged NCI C128378; flagged ICD10 G37.3</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-23T00:26:03+00:00 | KrishnaTO | Removed flagged cross-reference: ICD10 G37.3</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16631009</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0080743</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0026976</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0021553</ARI_MONDO>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G37.3</ARI_ICD10>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 16166/100k; Male 9117/100k; F:M ratio 1.77317</ARI_PrevalenceDesc>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Holroyd 2018; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6078000/</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
@@ -22730,7 +22733,6 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transverse Myelitis, Complete - Affects the entire width of the spinal cord.</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transverse Myelitis, Partial - Affects one side of the spinal cord.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TM</ARI_SurveyCode>
-  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secondary acute transverse myelitis | subtype | the acute form secondary to a defined cause (MS, NMO, infection, SLE, ...); narrower than transverse myelitis</ARI_SynonymWithdrawn>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001204_2084">
