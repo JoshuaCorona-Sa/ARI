@@ -743,4 +743,5 @@ ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	mesh	C58019
 ARI	0001204	Transverse myelitis	skos:exactMatch	ORPHA	139417	manual-negative	github:KrishnaTO
 ARI	0001204	Transverse myelitis	skos:exactMatch	ORPHA	592873	manual-negative	github:KrishnaTO
 ARI	0001204	Transverse myelitis	skos:exactMatch	ncit	C128378	manual-negative	github:KrishnaTO
+ARI	0001204	Transverse myelitis	skos:exactMatch	icd10cm	G37.3	manual-negative	github:KrishnaTO
 ARI	0001204	Transverse myelitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
