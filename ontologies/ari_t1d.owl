@@ -17016,6 +17016,7 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T21:38:43+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0010012; ORPHANET 3143</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-23T00:22:24+00:00 | KrishnaTO | Cross-reference review: flagged MESH D016884, C580192</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-23T00:26:03+00:00 | KrishnaTO | Cross-reference review: flagged MESH D016884, C580192</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-23T00:26:29+00:00 | KrishnaTO | Cross-reference review: flagged MESH D016884, C580192</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83728000</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0050168</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0085860</ARI_UMLS>
@@ -22711,6 +22712,8 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 16631009; confirmed OMOP 443904; confirmed DOID 0080743; confirmed MONDO 0021553; confirmed MESH D009188; confirmed UMLS C0026976; no term in NCI; no term in ORPHANET</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-23T00:26:03+00:00 | KrishnaTO | Cross-reference review: flagged ORPHANET 139417, 592873; flagged NCI C128378; flagged ICD10 G37.3</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-23T00:26:03+00:00 | KrishnaTO | Removed flagged cross-reference: ICD10 G37.3</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-23T00:26:23+00:00 | user | Edited: icd10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-23T00:26:29+00:00 | KrishnaTO | Cross-reference review: flagged ORPHANET 139417, 592873; flagged NCI C128378; no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16631009</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0080743</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0026976</ARI_UMLS>
