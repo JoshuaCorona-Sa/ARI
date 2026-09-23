@@ -738,3 +738,5 @@ ARI	0001202	TIF1-gamma positive dermatomyositis	skos:exactMatch	ORPHA	NoTermFoun
 ARI	0001202	TIF1-gamma positive dermatomyositis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001204	Transverse myelitis	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001204	Transverse myelitis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	mesh	D016884	manual-negative	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	mesh	C580192	manual-negative	github:KrishnaTO

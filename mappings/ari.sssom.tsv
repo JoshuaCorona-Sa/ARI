@@ -759,3 +759,5 @@ ARI:0001202	TIF1-gamma positive dermatomyositis	skos:exactMatch		sssom:NoTermFou
 ARI:0001202	TIF1-gamma positive dermatomyositis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:54:56+00:00	
 ARI:0001204	Transverse myelitis	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:54:56+00:00	
 ARI:0001204	Transverse myelitis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:54:56+00:00	
+ARI:0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	Not	mesh:D016884	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-23T00:22:26+00:00	
+ARI:0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	Not	mesh:C580192	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-23T00:22:26+00:00	

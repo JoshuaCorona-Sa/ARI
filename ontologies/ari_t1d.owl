@@ -17014,6 +17014,7 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T21:29:26+00:00 | user | Edited: mesh</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T21:38:43+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 83728000; confirmed OMOP 4308266; confirmed MONDO 0010012; confirmed ORPHANET 3143; flagged MONDO 0019012; flagged ORPHANET 65759; no term in MESH</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T21:38:43+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0010012; ORPHANET 3143</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-23T00:22:24+00:00 | KrishnaTO | Cross-reference review: flagged MESH D016884, C580192</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83728000</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0050168</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0085860</ARI_UMLS>
