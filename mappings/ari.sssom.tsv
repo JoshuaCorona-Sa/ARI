@@ -394,7 +394,7 @@ ARI:0001095	Fibromyalgia	skos:exactMatch		MONDO:0005546	MONDO	semapv:ManualMappi
 ARI:0001095	Fibromyalgia	skos:exactMatch		ncit:C87497	ncit	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001095	Fibromyalgia	skos:exactMatch		icd10cm:M79.7	icd10cm	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001095	Fibromyalgia	skos:exactMatch		mesh:D005356	mesh	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
-ARI:0003	Fulminant type 1 diabetes	skos:exactMatch		omop:37163452	omop	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		omop:37163452	omop	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001096	Graves' disease	skos:exactMatch		DOID:12361	DOID	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001096	Graves' disease	skos:exactMatch		MONDO:0005364	MONDO	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001096	Graves' disease	skos:exactMatch		ncit:C3071	ncit	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
@@ -402,9 +402,9 @@ ARI:0001096	Graves' disease	skos:exactMatch		icd10cm:E05.0	icd10cm	semapv:Manual
 ARI:0001096	Graves' disease	skos:exactMatch		OMIM:275000	OMIM	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001095	Fibromyalgia	skos:exactMatch		ORPHA:41842	ORPHA	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001096	Graves' disease	skos:exactMatch		mesh:D006111	mesh	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
-ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	SNOMEDCT:1217068008	SNOMEDCT	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
-ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	MONDO:0014523	MONDO	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
-ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	icd10cm:E10	icd10cm	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	SNOMEDCT:1217068008	SNOMEDCT	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	MONDO:0014523	MONDO	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	icd10cm:E10	icd10cm	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		omop:28660	omop	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T00:00:00+00:00	
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		DOID:0090110	DOID	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T00:00:00+00:00	
 ARI:0001108	Immunoglobulin A vasculitis	skos:exactMatch		SNOMEDCT:191306005	SNOMEDCT	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T00:00:00+00:00	

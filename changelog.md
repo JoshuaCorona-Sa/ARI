@@ -1,5 +1,29 @@
 # Changelog
 
+## t1d-registry-ids
+
+- **Gave LADA and Fulminant type 1 diabetes registry ids.** They were the only diseases
+  left with ids from the editor's seed data. The editor started with three demo records
+  (`#T1D_0001`-`0003`, `ARI:0001`-`0003`). When the core reports were imported, Type 1
+  diabetes matched the report's record and took `ARI:0001080`, but the other two appear in
+  no report or master list, so they kept four-digit ids on an IRI outside the registry
+  namespace. Renumbered with the next free ids:
+  - `ARI:0002` -> `ARI:0001214`, Latent autoimmune diabetes in adults (LADA)
+  - `ARI:0003` -> `ARI:0001215`, Fulminant type 1 diabetes
+
+  Each individual moves to `https://diseases.autoimmuneregistry.org/disease/ARI_…`, carries
+  the old id in a new `ARI_FormerID` annotation, and gets a changelog line. The four
+  existing `ARI:0003` rows in both mapping files are rewritten to the new id.
+- **`validate_mappings.py` now requires seven-digit ids.** The SSSOM subject pattern was
+  `ARI:\d{4,7}` to let these two through; it is `ARI:\d{7}`, and a new `ari-id-shape`
+  check applies the same rule to the ontology's own `ARI_ID`s. The deletion check follows
+  `ARI_FormerID` to the renumbered record, so a renumbering is not reported as
+  `disease-deleted`. `ARI_FormerID` is append-only, and `former-id-in-use` rejects a former
+  id that another disease still uses.
+- `data/4-reports/8_Disease_Target_Mappings.xlsx` still lists `ARI:0003`. It is a
+  formatted snapshot from 2026-08-22 that is already behind the mapping set, and is left
+  for its next regeneration.
+
 ## disease-synonyms-subtypes
 
 - **Reviews `ARI_Synonym` strings against the disease's own concept and retires the ones
