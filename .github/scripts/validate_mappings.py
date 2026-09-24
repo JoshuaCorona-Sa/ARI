@@ -816,7 +816,7 @@ def check_against_ontology(sssom: list[Row], diseases: dict[str, Disease], repor
                     f"disease ({properties}, {ONTOLOGY_PATH}:{stored[local]}) and is still served "
                     "to users. Remove the id from the ontology in the same change.",
                 )
-        elif local not in stored:
+        elif local not in stored and not fields["comment"].startswith(SUPERSEDED_MARKER):
             report.warning(
                 "confirmed-not-stored",
                 SSSOM_PATH,

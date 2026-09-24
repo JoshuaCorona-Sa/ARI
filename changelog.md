@@ -1,5 +1,13 @@
 # Changelog
 
+## skip-superseded-confirmed-not-stored
+
+- **`confirmed-not-stored` no longer fires for superseded rows.** A positive SSSOM row whose
+  `comment` starts with "Superseded by the " has been withdrawn by a later negative judgment,
+  so the id being absent from the ontology is correct. `check_against_ontology` now treats
+  such rows as not live, matching the `contradiction` check (e.g. ARI:0001017 ->
+  SNOMEDCT:195353004, superseded in #88).
+
 ## disease-synonyms-subtypes
 
 - **Reviews `ARI_Synonym` strings against the disease's own concept and retires the ones
