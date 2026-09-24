@@ -840,7 +840,7 @@ ARI	0001139	Myositis	skos:exactMatch	omop	36716807	manual-negative	github:alexla
 ARI	0001139	Myositis	skos:exactMatch	MONDO	0016098	manual-negative	github:alexlazcano248
 ARI	0001139	Myositis	skos:exactMatch	MONDO	0600023	manual-negative	github:alexlazcano248
 ARI	0001139	Myositis	skos:exactMatch	ORPHA	206569	manual-negative	github:alexlazcano248
-ARI			skos:exactMatch	umls	C2987933	manual-negative	github:alexlazcano248
-ARI			skos:exactMatch	SNOMEDCT	195353004	manual-negative	github:alexlazcano248
-ARI			skos:exactMatch	DOID	9744	manual-negative	github:alexlazcano248
-ARI			skos:exactMatch	MONDO	0011027	manual-negative	github:alexlazcano248
+ARI	0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	umls	C2987933	manual-negative	github:alexlazcano248
+ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	SNOMEDCT	195353004	manual-negative	github:alexlazcano248
+ARI	0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	DOID	9744	manual-negative	github:alexlazcano248
+ARI	0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	MONDO	0011027	manual-negative	github:alexlazcano248

@@ -156,7 +156,7 @@ ARI:0001115	Intermediate uveitis	skos:exactMatch	Not	omop:37164507	omop	semapv:M
 ARI:0001115	Intermediate uveitis	skos:exactMatch	Not	omop:434026	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29T00:00:00+00:00	
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		SNOMEDCT:788613004	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		omop:37312293	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
-ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch		SNOMEDCT:195353004	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch		SNOMEDCT:195353004	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	Superseded by the negative judgment of github:alexlazcano248 on 2026-09-24T12:40:43+00:00.
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		DOID:9808	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		ncit:C84566	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
 ARI:0001018	Antiphospholipid syndrome	skos:exactMatch		icd10cm:D68.61	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
@@ -861,7 +861,7 @@ ARI:0001139	Myositis	skos:exactMatch	Not	omop:36716807	omop	semapv:ManualMapping
 ARI:0001139	Myositis	skos:exactMatch	Not	MONDO:0016098	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001139	Myositis	skos:exactMatch	Not	MONDO:0600023	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001139	Myositis	skos:exactMatch	Not	ORPHA:206569	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-		skos:exactMatch	Not	umls:C2987933	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-		skos:exactMatch	Not	SNOMEDCT:195353004	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-		skos:exactMatch	Not	DOID:9744	DOID	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-		skos:exactMatch	Not	MONDO:0011027	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	umls:C2987933	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	Not	SNOMEDCT:195353004	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	DOID:9744	DOID	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	MONDO:0011027	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	

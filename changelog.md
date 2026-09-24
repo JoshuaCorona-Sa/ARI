@@ -1,5 +1,26 @@
 # Changelog
 
+## edit/alexlazcano248/mappings-review-1790253647
+
+Fixes the 32 `validate` errors on ARI#88. All come from editor-app defects
+(KrishnaTO/ARI-metadata-manager#171), not from the curator's judgments.
+
+- **Four negative rows had no subject.** The editor now parks ids removed in the field
+  editor and publishes them as flagged, but the parked entry carries only the disease IRI,
+  so the export wrote an empty `subject_id` / `source_id`. Filled in from the ontology's own
+  changelog, which recorded the removals correctly: umls `C2987933`, DOID `9744` and MONDO
+  `0011027` belong to `ARI:0002` (LADA); SNOMED `195353004` to `ARI:0001017` (ANCA
+  vasculitis). The LADA replacements (DOID `0080846`, MONDO `0850306`) are the correct
+  terms on OLS; the removed ones name type 1 and type 2 diabetes.
+- **SNOMED `195353004` on `ARI:0001017` is a reversal.** KrishnaTO had confirmed it on
+  2026-07-10. The removal stands, so the earlier positive SSSOM row is annotated
+  `Superseded by the negative judgment of github:alexlazcano248 …`, as the app does for a
+  reversal made on the review page.
+- **Flagged SNOMED codes survived in `ARI_DXCODE`.** The editor removed them from
+  `ARI_SNOMED` only. Dropped from the DXCODE mirror: `82275008`, `195353004`
+  (ARI:0001017); `715863001`, `722991004`, `702380008` (ARI:0001139); `3548001`
+  (ARI:0001142).
+
 ## disease-synonyms-subtypes
 
 - **Reviews `ARI_Synonym` strings against the disease's own concept and retires the ones

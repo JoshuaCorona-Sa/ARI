@@ -3373,7 +3373,7 @@ However, based on the research available at this time, there is no evidence that
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berti 2017; https://pubmed.ncbi.nlm.nih.gov/28881446/; Mohammad 2007; https://pubmed.ncbi.nlm.nih.gov/17553910/</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42535714</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">722191003, 82275008, 195353004</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">722191003</ARI_DXCODE>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D056648</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C215687</ARI_NCI>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vasculitis Foundation | https://www.vasculitisfoundation.org/</ARI_RefLink>
@@ -15134,7 +15134,7 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meyer 2014; https://pubmed.ncbi.nlm.nih.gov/25065005/</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">73001</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">722991004, 715863001, 702380008, 26889001</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26889001</ARI_DXCODE>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D009220</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27578</ARI_NCI>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/24170-myositis</ARI_RefLink>
@@ -15417,7 +15417,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ohta 2017; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5721299/</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">377271</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3548001, 26609002</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26609002</ARI_DXCODE>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D020968</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84600</ARI_NCI>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/15390-parsonage-turner-syndrome</ARI_RefLink>
