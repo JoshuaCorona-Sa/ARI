@@ -20,6 +20,13 @@ Fixes the 32 `validate` errors on ARI#88. All come from editor-app defects
   `ARI_SNOMED` only. Dropped from the DXCODE mirror: `82275008`, `195353004`
   (ARI:0001017); `715863001`, `722991004`, `702380008` (ARI:0001139); `3548001`
   (ARI:0001142).
+## skip-superseded-confirmed-not-stored
+
+- **`confirmed-not-stored` no longer fires for superseded rows.** A positive SSSOM row whose
+  `comment` starts with "Superseded by the " has been withdrawn by a later negative judgment,
+  so the id being absent from the ontology is correct. `check_against_ontology` now treats
+  such rows as not live, matching the `contradiction` check (e.g. ARI:0001017 ->
+  SNOMEDCT:195353004, superseded in #88).
 
 ## disease-synonyms-subtypes
 
