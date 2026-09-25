@@ -12,8 +12,8 @@
   - `ARI:0003` -> `ARI:0001215`, Fulminant type 1 diabetes
 
   Each individual moves to `https://diseases.autoimmuneregistry.org/disease/ARI_…`, carries
-  the old id in a new `ARI_FormerID` annotation, and gets a changelog line. The four
-  existing `ARI:0003` rows in both mapping files are rewritten to the new id.
+  the old id in a new `ARI_FormerID` annotation, and gets a changelog line. Their mapping rows are rewritten to the new ids in both files: four
+  for `ARI:0003`, and the ten `ARI:0002` rows that #88 added.
 - **`validate_mappings.py` now requires seven-digit ids.** The SSSOM subject pattern was
   `ARI:\d{4,7}` to let these two through; it is `ARI:\d{7}`, and a new `ari-id-shape`
   check applies the same rule to the ontology's own `ARI_ID`s. The deletion check follows
@@ -23,6 +23,34 @@
 - `data/4-reports/8_Disease_Target_Mappings.xlsx` still lists `ARI:0003`. It is a
   formatted snapshot from 2026-08-22 that is already behind the mapping set, and is left
   for its next regeneration.
+
+## edit/alexlazcano248/mappings-review-1790253647
+
+Fixes the 32 `validate` errors on ARI#88. All come from editor-app defects
+(KrishnaTO/ARI-metadata-manager#171), not from the curator's judgments.
+
+- **Four negative rows had no subject.** The editor now parks ids removed in the field
+  editor and publishes them as flagged, but the parked entry carries only the disease IRI,
+  so the export wrote an empty `subject_id` / `source_id`. Filled in from the ontology's own
+  changelog, which recorded the removals correctly: umls `C2987933`, DOID `9744` and MONDO
+  `0011027` belong to `ARI:0002` (LADA); SNOMED `195353004` to `ARI:0001017` (ANCA
+  vasculitis). The LADA replacements (DOID `0080846`, MONDO `0850306`) are the correct
+  terms on OLS; the removed ones name type 1 and type 2 diabetes.
+- **SNOMED `195353004` on `ARI:0001017` is a reversal.** KrishnaTO had confirmed it on
+  2026-07-10. The removal stands, so the earlier positive SSSOM row is annotated
+  `Superseded by the negative judgment of github:alexlazcano248 …`, as the app does for a
+  reversal made on the review page.
+- **Flagged SNOMED codes survived in `ARI_DXCODE`.** The editor removed them from
+  `ARI_SNOMED` only. Dropped from the DXCODE mirror: `82275008`, `195353004`
+  (ARI:0001017); `715863001`, `722991004`, `702380008` (ARI:0001139); `3548001`
+  (ARI:0001142).
+## skip-superseded-confirmed-not-stored
+
+- **`confirmed-not-stored` no longer fires for superseded rows.** A positive SSSOM row whose
+  `comment` starts with "Superseded by the " has been withdrawn by a later negative judgment,
+  so the id being absent from the ontology is correct. `check_against_ontology` now treats
+  such rows as not live, matching the `contradiction` check (e.g. ARI:0001017 ->
+  SNOMEDCT:195353004, superseded in #88).
 
 ## disease-synonyms-subtypes
 
