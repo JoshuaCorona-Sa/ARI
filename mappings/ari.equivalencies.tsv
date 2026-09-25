@@ -373,7 +373,7 @@ ARI	0001095	Fibromyalgia	skos:exactMatch	MONDO	0005546	manual	github:Jennyzeng25
 ARI	0001095	Fibromyalgia	skos:exactMatch	ncit	C87497	manual	github:Jennyzeng25
 ARI	0001095	Fibromyalgia	skos:exactMatch	icd10cm	M79.7	manual	github:Jennyzeng25
 ARI	0001095	Fibromyalgia	skos:exactMatch	mesh	D005356	manual	github:Jennyzeng25
-ARI	0003	Fulminant type 1 diabetes	skos:exactMatch	omop	37163452	manual	github:Jennyzeng25
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	omop	37163452	manual	github:Jennyzeng25
 ARI	0001096	Graves' disease	skos:exactMatch	DOID	12361	manual	github:Jennyzeng25
 ARI	0001096	Graves' disease	skos:exactMatch	MONDO	0005364	manual	github:Jennyzeng25
 ARI	0001096	Graves' disease	skos:exactMatch	ncit	C3071	manual	github:Jennyzeng25
@@ -381,9 +381,9 @@ ARI	0001096	Graves' disease	skos:exactMatch	icd10cm	E05.0	manual	github:Jennyzen
 ARI	0001096	Graves' disease	skos:exactMatch	OMIM	275000	manual	github:Jennyzeng25
 ARI	0001095	Fibromyalgia	skos:exactMatch	ORPHA	41842	manual	github:Jennyzeng25
 ARI	0001096	Graves' disease	skos:exactMatch	mesh	D006111	manual	github:Jennyzeng25
-ARI	0003	Fulminant type 1 diabetes	skos:exactMatch	SNOMEDCT	1217068008	manual-negative	github:Jennyzeng25
-ARI	0003	Fulminant type 1 diabetes	skos:exactMatch	MONDO	0014523	manual-negative	github:Jennyzeng25
-ARI	0003	Fulminant type 1 diabetes	skos:exactMatch	icd10cm	E10	manual-negative	github:Jennyzeng25
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	SNOMEDCT	1217068008	manual-negative	github:Jennyzeng25
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	MONDO	0014523	manual-negative	github:Jennyzeng25
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	icd10cm	E10	manual-negative	github:Jennyzeng25
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	omop	28660	manual	github:AnjaliRH
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	DOID	0090110	manual	github:AnjaliRH
 ARI	0001108	Immunoglobulin A vasculitis	skos:exactMatch	SNOMEDCT	191306005	manual	github:AnjaliRH
@@ -756,7 +756,7 @@ ARI	0001088	Episcleritis	skos:exactMatch	umls	C0014583	manual	github:alexlazcano
 ARI	0001088	Episcleritis	skos:exactMatch	ncit	C112189	manual	github:alexlazcano248
 ARI	0001088	Episcleritis	skos:exactMatch	omop	4218083	manual	github:alexlazcano248
 ARI	0001088	Episcleritis	skos:exactMatch	SNOMEDCT	815008	manual	github:alexlazcano248
-ARI	0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	mesh	D000071698	manual	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	mesh	D000071698	manual	github:alexlazcano248
 ARI	0001127	Male infertility associated with antisperm antibodies	skos:exactMatch	SNOMEDCT	414643008	manual	github:alexlazcano248
 ARI	0001127	Male infertility associated with antisperm antibodies	skos:exactMatch	omop	4212192	manual	github:alexlazcano248
 ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	SNOMEDCT	26609002	manual	github:alexlazcano248
@@ -813,12 +813,12 @@ ARI	0001139	Myositis	skos:exactMatch	mesh	D009220	manual	github:alexlazcano248
 ARI	0001139	Myositis	skos:exactMatch	umls	C0027121	manual	github:alexlazcano248
 ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	omop	3654629	manual-negative	github:alexlazcano248
 ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	ORPHA	231457	manual-negative	github:alexlazcano248
-ARI	0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	SNOMEDCT	46635009	manual-negative	github:alexlazcano248
-ARI	0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	ncit	C2986	manual-negative	github:alexlazcano248
-ARI	0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	icd10cm	E10	manual-negative	github:alexlazcano248
-ARI	0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	ORPHA	243377	manual-negative	github:alexlazcano248
-ARI	0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	mesh	D003922	manual-negative	github:alexlazcano248
-ARI	0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	mesh	C563359	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	SNOMEDCT	46635009	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	ncit	C2986	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	icd10cm	E10	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	ORPHA	243377	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	mesh	D003922	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	mesh	C563359	manual-negative	github:alexlazcano248
 ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	SNOMEDCT	3548001	manual-negative	github:alexlazcano248
 ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	omop	378741	manual-negative	github:alexlazcano248
 ARI	0001142	Neuralgic amyotrophy	skos:exactMatch	MONDO	0006682	manual-negative	github:alexlazcano248
@@ -840,7 +840,7 @@ ARI	0001139	Myositis	skos:exactMatch	omop	36716807	manual-negative	github:alexla
 ARI	0001139	Myositis	skos:exactMatch	MONDO	0016098	manual-negative	github:alexlazcano248
 ARI	0001139	Myositis	skos:exactMatch	MONDO	0600023	manual-negative	github:alexlazcano248
 ARI	0001139	Myositis	skos:exactMatch	ORPHA	206569	manual-negative	github:alexlazcano248
-ARI	0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	umls	C2987933	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	umls	C2987933	manual-negative	github:alexlazcano248
 ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	SNOMEDCT	195353004	manual-negative	github:alexlazcano248
-ARI	0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	DOID	9744	manual-negative	github:alexlazcano248
-ARI	0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	MONDO	0011027	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	DOID	9744	manual-negative	github:alexlazcano248
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	MONDO	0011027	manual-negative	github:alexlazcano248

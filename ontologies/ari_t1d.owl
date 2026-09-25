@@ -182,6 +182,8 @@
 
 <owl:AnnotationProperty rdf:about="#ARI_ID"/>
 
+<owl:AnnotationProperty rdf:about="#ARI_FormerID"/>
+
 <owl:AnnotationProperty rdf:about="#ARI_Synonym"/>
 
 <owl:AnnotationProperty rdf:about="#ARI_SynonymWithdrawn"/>
@@ -1541,7 +1543,7 @@
   <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#T1D_0002">
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001214">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasParentDisease rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001080"/>
   <hasSymptom rdf:resource="#Sym_LADA_Thirst"/>
@@ -1556,7 +1558,9 @@
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
   <prevalencePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</prevalencePer100k>
   <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adult-onset, typically &gt;30 years</ageRange>
-  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0002</ARI_ID>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001214</ARI_ID>
+  <ARI_FormerID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0002</ARI_FormerID>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24 | Claude | Assigned registry id ARI:0001214; was ARI:0002, a leftover from the editor's seed data, with IRI #T1D_0002.</ARI_ChangeLog>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latent autoimmune diabetes</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LADA</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slowly progressive IDDM</ARI_Synonym>
@@ -1609,7 +1613,7 @@
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#T1D_0003">
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001215">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasParentDisease rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001080"/>
   <hasParentCategory rdf:resource="#Category_Endocrine"/>
@@ -1619,7 +1623,9 @@
   <hasSymptom rdf:resource="#Sym_Ful_Flu"/>
   <hasAntibody rdf:resource="#Ab_Ful_GAD65"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fulminant type 1 diabetes</rdfs:label>
-  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0003</ARI_ID>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001215</ARI_ID>
+  <ARI_FormerID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0003</ARI_FormerID>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24 | Claude | Assigned registry id ARI:0001215; was ARI:0003, a leftover from the editor's seed data, with IRI #T1D_0003.</ARI_ChangeLog>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fulminant T1D is a rare, abrupt-onset subtype characterized by very rapid beta-cell destruction over days, near-normal HbA1c at presentation despite severe hyperglycemia, and frequent absence of islet autoantibodies. Most cases are reported in East Asia.</rdfs:comment>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</ARI_Version>

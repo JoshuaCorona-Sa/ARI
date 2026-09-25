@@ -394,7 +394,7 @@ ARI:0001095	Fibromyalgia	skos:exactMatch		MONDO:0005546	MONDO	semapv:ManualMappi
 ARI:0001095	Fibromyalgia	skos:exactMatch		ncit:C87497	ncit	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001095	Fibromyalgia	skos:exactMatch		icd10cm:M79.7	icd10cm	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001095	Fibromyalgia	skos:exactMatch		mesh:D005356	mesh	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
-ARI:0003	Fulminant type 1 diabetes	skos:exactMatch		omop:37163452	omop	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		omop:37163452	omop	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001096	Graves' disease	skos:exactMatch		DOID:12361	DOID	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001096	Graves' disease	skos:exactMatch		MONDO:0005364	MONDO	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001096	Graves' disease	skos:exactMatch		ncit:C3071	ncit	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
@@ -402,9 +402,9 @@ ARI:0001096	Graves' disease	skos:exactMatch		icd10cm:E05.0	icd10cm	semapv:Manual
 ARI:0001096	Graves' disease	skos:exactMatch		OMIM:275000	OMIM	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001095	Fibromyalgia	skos:exactMatch		ORPHA:41842	ORPHA	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001096	Graves' disease	skos:exactMatch		mesh:D006111	mesh	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
-ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	SNOMEDCT:1217068008	SNOMEDCT	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
-ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	MONDO:0014523	MONDO	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
-ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	icd10cm:E10	icd10cm	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	SNOMEDCT:1217068008	SNOMEDCT	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	MONDO:0014523	MONDO	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	icd10cm:E10	icd10cm	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04T00:00:00+00:00	
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		omop:28660	omop	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T00:00:00+00:00	
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		DOID:0090110	DOID	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T00:00:00+00:00	
 ARI:0001108	Immunoglobulin A vasculitis	skos:exactMatch		SNOMEDCT:191306005	SNOMEDCT	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T00:00:00+00:00	
@@ -777,7 +777,7 @@ ARI:0001088	Episcleritis	skos:exactMatch		umls:C0014583	umls	semapv:ManualMappin
 ARI:0001088	Episcleritis	skos:exactMatch		ncit:C112189	ncit	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001088	Episcleritis	skos:exactMatch		omop:4218083	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001088	Episcleritis	skos:exactMatch		SNOMEDCT:815008	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-ARI:0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch		mesh:D000071698	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch		mesh:D000071698	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001127	Male infertility associated with antisperm antibodies	skos:exactMatch		SNOMEDCT:414643008	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001127	Male infertility associated with antisperm antibodies	skos:exactMatch		omop:4212192	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001142	Neuralgic amyotrophy	skos:exactMatch		SNOMEDCT:26609002	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
@@ -834,12 +834,12 @@ ARI:0001139	Myositis	skos:exactMatch		mesh:D009220	mesh	semapv:ManualMappingCura
 ARI:0001139	Myositis	skos:exactMatch		umls:C0027121	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001030	Autoimmune ganglionopathy	skos:exactMatch	Not	omop:3654629	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001030	Autoimmune ganglionopathy	skos:exactMatch	Not	ORPHA:231457	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-ARI:0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	SNOMEDCT:46635009	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-ARI:0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	ncit:C2986	ncit	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-ARI:0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	icd10cm:E10	icd10cm	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-ARI:0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	ORPHA:243377	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-ARI:0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	mesh:D003922	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-ARI:0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	mesh:C563359	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	SNOMEDCT:46635009	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	ncit:C2986	ncit	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	icd10cm:E10	icd10cm	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	ORPHA:243377	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	mesh:D003922	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	mesh:C563359	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001142	Neuralgic amyotrophy	skos:exactMatch	Not	SNOMEDCT:3548001	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001142	Neuralgic amyotrophy	skos:exactMatch	Not	omop:378741	omop	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001142	Neuralgic amyotrophy	skos:exactMatch	Not	MONDO:0006682	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
@@ -861,7 +861,7 @@ ARI:0001139	Myositis	skos:exactMatch	Not	omop:36716807	omop	semapv:ManualMapping
 ARI:0001139	Myositis	skos:exactMatch	Not	MONDO:0016098	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001139	Myositis	skos:exactMatch	Not	MONDO:0600023	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001139	Myositis	skos:exactMatch	Not	ORPHA:206569	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-ARI:0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	umls:C2987933	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	umls:C2987933	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	Not	SNOMEDCT:195353004	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-ARI:0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	DOID:9744	DOID	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-ARI:0002	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	MONDO:0011027	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	DOID:9744	DOID	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	MONDO:0011027	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
